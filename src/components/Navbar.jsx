@@ -90,7 +90,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center">
             <a
               className="flex justify-between items-center w-full text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 p-2 text-decoration-none hover:text-white"
-              href="/"
+              href="https://www.linkedin.com/in/kaushal-rijal-772902213"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -98,7 +98,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center">
             <a
               className="flex justify-between items-center w-full text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] p-2 text-decoration-none hover:text-white"
-              href="/"
+              href="https://github.com/kaushalrijal"
             >
               Github <FaGithub size={30} />
             </a>
@@ -106,17 +106,17 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center">
             <a
               className="flex justify-between items-center w-full text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] p-2 text-decoration-none hover:text-white"
-              href="/"
+              href="mailto:kaushalrijal091@gmail.com"
             >
               Email <HiOutlineMail size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center">
             <a
-              className="flex justify-between items-center w-full text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] p-2 text-decoration-none hover:text-white"
-              href="/"
+              className="flex justify-between items-center w-full text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#00acee] p-2 text-decoration-none hover:text-white"
+              href="https://twitter.com/kaushalsym"
             >
-              Resume <BsFillPersonLinesFill size={30} />
+              Resume <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png" alt="twitter logo" width="30" />
             </a>
           </li>
         </ul>
