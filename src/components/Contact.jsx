@@ -20,6 +20,7 @@ const Contact = () => {
           setDone(true);
           document.getElementById("name").value = "";
           document.getElementById("email").value = "";
+          document.getElementById("subject").value = "";
           document.getElementById("message").value = "";
         },
         (error) => {
@@ -52,7 +53,14 @@ const Contact = () => {
           id="name"
           required
         />
-
+        <input
+          className="p-2 bg-[#ccd6f6] text-black"
+          type="text"
+          placeholder="Subject"
+          name="user_subject"
+          id="subject"
+          required
+        />
         <input
           className=" my-4 p-2 bg-[#ccd6f6] text-black"
           type="email"
