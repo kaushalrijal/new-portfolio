@@ -17,9 +17,11 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          console.log(done);
           setDone(true);
           document.getElementById("name").value = "";
           document.getElementById("email").value = "";
+          document.getElementById("subject").value = "";
           document.getElementById("message").value = "";
         },
         (error) => {
@@ -42,7 +44,7 @@ const Contact = () => {
           <p className="text-4xl bold inline border-b-4 border-[#8C8C8C]">
             Contact
           </p>
-          <p className="py-4">//Wanna get in touch? Hit my mailbox now!</p>
+          <p className="py-4">&#47;&#47;Wanna get in touch? Hit my mailbox now!</p>
         </div>
         <input
           className="p-2 bg-[#ccd6f6] text-black"
@@ -52,7 +54,14 @@ const Contact = () => {
           id="name"
           required
         />
-
+        <input
+          className="p-2 bg-[#ccd6f6] text-black"
+          type="text"
+          placeholder="Subject"
+          name="user_subject"
+          id="subject"
+          required
+        />
         <input
           className=" my-4 p-2 bg-[#ccd6f6] text-black"
           type="email"
