@@ -25,6 +25,6 @@ function App() {
         <Contact /> */}
     </React.Fragment>
   );
-}
+} 
 
 export default App;
